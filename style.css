@@ -1,0 +1,17 @@
+#grid {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    /* 4 sütun */
+    gap: 10px;
+    /* kartlar arası boşluk */
+}
+
+#grid img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    /* resim kareye sığsın */
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
